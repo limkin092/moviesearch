@@ -1,37 +1,20 @@
-# newsviayahoofinance
+## Checking IMDB copycat for movies
 
-Pulling news about companies I am interested in.
+This is a POC for a backend written in Go. I added to the db reqeust an cache.
 
-## API Calls
-
-+ getting all news:
-    * today (till now)
-    * yesterday
-    * this week
-
-+ subscription on:
-    * companies
-    * branch
-
-+ getting charts
-    * opening values
-    * closing values
-    * 16:00 value
-
-## Features
-
-+ sending email when news about subscribed copmany comes in
-
+If you want to tried it out, the simply downlaod the code and set your own variables into .env and try the backend
 ## Libs used
 
 + Auto reload:
-    * air
+    * air - hot reloading
 + backend:
-    * fiber
+    * fiber - server
+    * gorequest - client
 + database:
-    * gorm
-    * sqlite
+    * gorm - ORM
+    * sqlite - database technology
 + util:
     * regex
+    * godotenv - asking project variables from .env file
 
     
