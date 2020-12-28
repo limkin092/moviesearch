@@ -13,6 +13,6 @@ If you want to tried it out, the simply downlaod the code and set your own varia
     * sqlite - database technology
 + util:
     * regex
-    * godotenv - asking project variables from .env file
+    * godotenv - loading project variables from .env file
     * air - hot reloading
     
